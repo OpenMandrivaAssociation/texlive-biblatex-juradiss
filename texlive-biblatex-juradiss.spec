@@ -1,3 +1,9 @@
+# revision 24059
+# category Package
+# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-juradiss
+# catalog-date 2011-09-21 17:45:17 +0200
+# catalog-license lppl
+# catalog-version 0.1e
 Name:		texlive-biblatex-juradiss
 Version:	0.1e
 Release:	1
@@ -41,6 +47,7 @@ with LaTeX, based on biblatex and biblatex-dw.
 %doc %{_texmfdistdir}/doc/latex/biblatex-juradiss/biber.conf
 %doc %{_texmfdistdir}/doc/latex/biblatex-juradiss/biblatex-juradiss.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-juradiss/biblatex-juradiss.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ with LaTeX, based on biblatex and biblatex-dw.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
