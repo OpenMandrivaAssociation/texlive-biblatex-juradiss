@@ -1,12 +1,12 @@
-# revision 24059
+# revision 27195
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-juradiss
-# catalog-date 2011-09-21 17:45:17 +0200
+# catalog-date 2012-07-18 10:04:49 +0200
 # catalog-license lppl
-# catalog-version 0.1e
+# catalog-version 0.1f
 Name:		texlive-biblatex-juradiss
-Version:	0.1e
-Release:	2
+Version:	0.1f
+Release:	1
 Summary:	Biblatex stylefiles for German law thesis
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-juradiss
@@ -19,8 +19,9 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The package provides a style for creating a german law thesis
-with LaTeX, based on biblatex and biblatex-dw.
+The package provides a style for use in typesetting a German
+law thesis with LaTeX. The style (using biblatex) is based on
+biblatex-dw.
 
 %post
     %{_sbindir}/texlive.post
