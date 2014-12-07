@@ -6,7 +6,7 @@
 # catalog-version 0.1f
 Name:		texlive-biblatex-juradiss
 Version:	0.1f
-Release:	8
+Release:	9
 Summary:	Biblatex stylefiles for German law thesis
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-juradiss
