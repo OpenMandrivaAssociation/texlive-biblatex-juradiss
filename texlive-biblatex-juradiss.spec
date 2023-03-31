@@ -1,6 +1,6 @@
 Name:		texlive-biblatex-juradiss
 Version:	56502
-Release:	1
+Release:	2
 Summary:	Biblatex stylefiles for German law thesis
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-juradiss
